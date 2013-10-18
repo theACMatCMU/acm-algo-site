@@ -4,4 +4,4 @@
 # If you change this key, all old signed cookies will become invalid!
 # Make sure the secret is at least 30 characters and all random,
 # no regular words or you'll be exposed to dictionary attacks.
-Acmalgo::Application.config.secret_token = '71f3490db2789f54ffb8064f5ade5d5b077451d5518e98c3a63e2e20a09e3d7f12ea91d3baf2f5ad855c7a454cc427378fc5e251837afb5606d0380c12653723'
+Acmhacks::Application.config.secret_token = '938a873f9264fc80b527b68553f004ba0f78e509038e3bbf447ac86ef4c7967310ae87241a9c3992c83ec627f62614de81cfa76e0b77d5a5df428cf20a9f20c1'

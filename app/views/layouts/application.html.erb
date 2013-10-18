@@ -1,14 +1,36 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Acmalgo</title>
+  <title>hack+</title>
+  <%= javascript_include_tag    "snowstorm" %>
   <%= stylesheet_link_tag    "application", :media => "all" %>
-  <%= javascript_include_tag "application" %>
+  <%= stylesheet_link_tag    "home" %>
+  <%= stylesheet_link_tag    "mentors" %>
+  <%= stylesheet_link_tag    "ideas" %>
+  <%= stylesheet_link_tag    "schedule" %>
+  <%= stylesheet_link_tag    "sponsors" %>
   <%= csrf_meta_tags %>
 </head>
 <body>
 
+  <%= link_to(image_tag("logo.png", :alt => "logo", :style => "width: 250px;"), 
+
+              root_path) %>
+              <BR>
+              
+  <div id ="nav">
+    <%= link_to("Home", root_path) %> |
+  </div>
+
+<%= image_tag("banner.png",  :id => "headerimage", :alt => "header", :style => "width: 100%;") %>
+  <br />
+
 <%= yield %>
+
+<%= render "shared/footer" %>
+
+<%= javascript_include_tag "application" %>
+
 
 </body>
 </html>
