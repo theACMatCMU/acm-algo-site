@@ -5,23 +5,25 @@
   <%= javascript_include_tag    "snowstorm" %>
   <%= stylesheet_link_tag    "application", :media => "all" %>
   <%= stylesheet_link_tag    "home" %>
-  <%= stylesheet_link_tag    "mentors" %>
-  <%= stylesheet_link_tag    "ideas" %>
-  <%= stylesheet_link_tag    "schedule" %>
-  <%= stylesheet_link_tag    "sponsors" %>
   <%= csrf_meta_tags %>
 </head>
 <body>
 
-  <%= link_to(image_tag("logo.png", :alt => "logo", :style => "width: 250px;"), 
+<div class="cushead" style="text-align:center;">
+<!--<%= link_to(image_tag("logo.png", :alt => "logo", :style => "width: 500px; text-align:center; vertical-align:middle;"), 
 
               root_path) %>
-              <BR>
-              
+-->
+
+
+<%= link_to(image_tag("header_blue.png", :alt => "logo", :style => "width: 100%; text-align:center; vertical-align:middle;"), root_path) %>
+</div>
+
+ <!--             
   <div id ="nav">
     <%= link_to("Home", root_path) %> |
   </div>
-
+-->
 <%= image_tag("banner.png",  :id => "headerimage", :alt => "header", :style => "width: 100%;") %>
   <br />
 
