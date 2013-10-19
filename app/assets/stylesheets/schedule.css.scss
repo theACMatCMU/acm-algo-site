@@ -1,0 +1,52 @@
+.schedule {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.eventList {
+	text-align: justify;
+	border: #CCCCCC 1px solid;
+	box-shadow: 5px 5px 5px #CCCCCC;
+}
+
+.event {
+	min-height: 45px;
+	overflow: hidden;
+	border-bottom: #CCCCCC 1px solid;
+	padding: 5px;
+	text-align: left;
+}
+
+.eventOpened {
+	min-height: 45px;
+}
+
+.evenRow {
+	background-color: white;
+}
+
+.oddRow {
+	background-color: #E1EDF2;
+}
+
+.downArrow{
+	width: 0;
+	height: 0;
+	border-left: 7px solid transparent;
+	border-right: 7px solid transparent;
+	border-top: 7px solid #CCCCCC;
+	font-size: 0;
+	line-height: 0;
+	margin-right: 10px;
+}
+
+.desc {
+	display: none;
+	/* height: 0px;
+	overflow: hidden; */
+}
+
+h3 {
+	text-align: left;
+	margin-left: 10px;
+}

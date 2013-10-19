@@ -1,0 +1,83 @@
+<%= image_tag("schedule.jpg", :alt => "header", :style => "width: 100%;") %>
+
+<article id = "row" class = "schedule">
+	<h2> Schedule of Events </h2>
+	<br />
+	<div class = "eventList">
+		<% eventIndex = 0 %>
+		<div class = "event <%= cycle("evenRow", "oddRow") -%>" onClick="openClose('desc<%= eventIndex-%>')">
+			<h3>
+				<span class = "downArrow"></span> 10/5: Workshop: Building your first open source hack
+			</h3>
+			<p class = "desc" id = "desc<%= eventIndex-%>">
+				Want to use finger tracking on the Kinect? Do awesome animations on a webpage? There's probably an open source for that. <br /> <br />
+
+				Please join us in welcoming Varun Arora, founder of <%= link_to("Open Curriculum", "http://theopencurriculum.org") -%>*, for a workshop on "Building your first open source hack"! In this talk, Varun will explain how using open source is a valuable and powerful tool in the process of creating amazing products, as well as how you can take advantage of and contribute to open source.<br /> <br />
+
+				*Open Curriculum is a Github for textbooks that allows communities to collaboratively create and share K-12 curricula material. Visit them at theopencurriculum.org<br /> <br />
+
+				Time is tentative.
+				<br /><br />
+			</p>
+			<% eventIndex += 1 %>
+		</div>
+		<div class = "event <%= cycle("evenRow", "oddRow") -%>" onClick="openClose('desc<%= eventIndex-%>')">
+			<h3>
+				<span class = "downArrow"></span> 10/12: Demos + Coding Fun
+			</h3>
+			<p class = "desc" id = "desc<%= eventIndex-%>">
+				Come show off what you've been working on, and hang around to code with other teams. We've got the rooms, you bring the awesome. <br /><br />
+
+				Actual time and date subject to change.
+				<br /><br />
+			</p>
+			<% eventIndex += 1 %>
+		</div>
+		<div class = "event <%= cycle("evenRow", "oddRow") -%>" onClick="openClose('desc<%= eventIndex-%>')">
+			<h3>
+				<span class = "downArrow"></span> 10/19: Workshop: Design
+			</h3>
+			<p class = "desc" id = "desc<%= eventIndex-%>">
+				Are you really proud of the functionality of your app, but frustrated by its design? Come learn the fundamentals of design from one of our very own mentors, Celine Nguyen.<br /><br />
+
+				Actual time and date subject to change.
+				<br /><br />
+			</p>
+			<% eventIndex += 1 %>
+		</div>
+		<div class = "event <%= cycle("evenRow", "oddRow") -%>" onClick="openClose('desc<%= eventIndex-%>')">
+			<h3>
+				<span class = "downArrow"></span> 10/26: Demos + Coding Fun
+			</h3>
+			<p class = "desc" id = "desc<%= eventIndex-%>">
+				Come show off what you've been working on, and hang around to code with other teams. We've got the rooms, you bring the awesome. <br /><br />
+
+				Actual time and date subject to change.
+				<br /><br />
+			</p>
+			<% eventIndex += 1 %>
+		</div>
+		<div class = "event <%= cycle("evenRow", "oddRow") -%>" onClick="openClose('desc<%= eventIndex-%>')">
+			<h3>
+				<span class = "downArrow"></span> 11/2: Skill Swap Weekend
+			</h3>
+			<p class = "desc" id = "desc<%= eventIndex-%>">
+				Hosted by Scotty Labs and ACM, this isn't officially part of hack+, but we highly encourage participants to attend! You'll have the chance to learn various different...well, skills, related to the tech world from students at CMU.
+				<br /><br />
+			</p>
+			<% eventIndex += 1 %>
+		</div>
+		<div class = "event <%= cycle("evenRow", "oddRow") -%>" onClick="openClose('desc<%= eventIndex-%>')">
+			<h3>
+				<span class = "downArrow"></span> 11/23: The Final Event
+			</h3>
+			<p class = "desc" id = "desc<%= eventIndex-%>">
+				Some time to finish up and then it all ends :( Be prepared to dazzle all with the culmination of your semester's work and admire the work of others. Should be fun! <br /><br />
+
+				Time and date subject to change...
+				<br /><br />
+			</p>
+			<% eventIndex += 1 %>
+		</div>
+	</div>
+</article>
