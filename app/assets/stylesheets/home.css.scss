@@ -18,16 +18,17 @@ body{
 #attributes, #schedule {
   padding: 20px;
   text-align: center;
-  letter-spacing: -1.75px;
-  font-size: 40px;
-  font-family: "impact";
-  color: $light-grey;
-  background-color: #00Bfff;
+  letter-spacing: 1.75px;
+  font-size: 27px;
+  font-family: "Georgia";
+  color: white;
+  margin-bottom: 5px;
+  background-color: #009dff;
 }
-
 
 .attribute {
     color:white;
+    font-size: 15px;
 }
 .attribute:hover {
   color: white;
@@ -37,6 +38,7 @@ body{
 
 #middle {
   color: white;
+  font-size: 15px;
 }
 
 #row {
