@@ -6,5 +6,7 @@ Acmhacks::Application.routes.draw do
   get '/ideas', to: 'pages#ideas'
   get '/schedule', to: 'pages#schedule'
 
+  get '/snow', to: 'pages#snowworld'
+  get '/faq', to: 'pages#faq'
   root to: "pages#index"
 end

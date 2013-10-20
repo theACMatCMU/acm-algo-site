@@ -1,8 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>hack+</title>
-  <%= javascript_include_tag    "snowstorm" %>
+  <title>Algorithms with a Purpose</title>
   <%= stylesheet_link_tag    "application", :media => "all" %>
   <%= stylesheet_link_tag    "home" %>
   <%= csrf_meta_tags %>
@@ -10,13 +9,9 @@
 <body>
 
 <div class="cushead" style="text-align:center;">
-<!--<%= link_to(image_tag("logo.png", :alt => "logo", :style => "width: 500px; text-align:center; vertical-align:middle;"), 
 
-              root_path) %>
--->
+<%= image_tag("header_blue.png", :alt => "logo", :style => "width: 100%; text-align:center; vertical-align:middle;")%>
 
-
-<%= link_to(image_tag("header_blue.png", :alt => "logo", :style => "width: 100%; text-align:center; vertical-align:middle;"), root_path) %>
 </div>
 
  <!--             
@@ -26,6 +21,27 @@
 -->
 <%= image_tag("banner.png",  :id => "headerimage", :alt => "header", :style => "width: 100%;") %>
   <br />
+
+<div id = "attributes">
+  Solve Puzzles w/ Algorithms! Save Snow World! - 16 November 2013
+</div>
+<br /><br />
+<div  id = "nav" >
+  <span class = "navitem"><%= link_to "Home", "/#attributes" %></span>
+  
+  <span class = "navitem">|</span>
+
+  <span class = "navitem"><%= link_to "Snow World", "/snow#attributes" %></span>
+  
+  <span class = "navitem">|</span> 
+
+  <span class = "navitem"><%= link_to "Info/Prizes/FAQ", "/faq#attributes" %></span>
+  
+  <span class = "navitem">|</span> 
+
+  <span class = "navitem"><%= link_to "Team/Individual Registration", "http://goo.gl/onHxCQ" %></span>
+</div>
+
 
 <%= yield %>
 

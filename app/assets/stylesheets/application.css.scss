@@ -4,10 +4,16 @@ $lighter-grey: #dadadc;
 
 $nav-link-color: $dark-grey;
 $reg-link-color: white;
-$hover-link-color: white;
+$hover-link-color: black;
+$nav-hover-link-color: black;
+$nav-bg-color: white;
+
+$gen-font : "Helvetica";
+
+
 
 html {
-   font-family: "Georgia";
+   font-family: $gen-font;
    min-width: 850px;
 }
 
@@ -16,7 +22,7 @@ h1 {
 }
 
 h2 {
-   font-family: "Georgia";
+   font-family: $gen-font;
    font-size: 20px;
    padding-left: 10px;
 }
@@ -28,7 +34,8 @@ h3 {
 }
 
 ul li {
-  font-family: "Corbel";
+  font-family: $gen-font;
+  color: white;
 }
 
 #emphasis {
@@ -47,7 +54,7 @@ p {
   padding-right: 10px;
   line-height: 150%;
   font-size: 15px;
-  font-family: "Corbel";
+  font-family: $gen-font;
   clear: both;
 }
 
@@ -56,13 +63,12 @@ a {
   color: $reg-link-color;
 }
 
-/*
 a:hover {
   position: relative;
-  top: -5px;
+  top: 2px;
   color: $hover-link-color;
 }
-*/
+
 a:active {
   color: $light-grey;
 }
@@ -70,16 +76,21 @@ a:active {
 #nav {
   padding: 20px;	
   letter-spacing: 1.75px;
-  font-size: 15px;
+  font-size: 20px;
   font-family: "Georgia";
   margin-bottom: 5px;
   text-align: center;
   margin-top: -35px;
-  background-color: #F0F8FF;
+  background-color: $nav-bg-color;
 
-  a {
+  a{
     color: $nav-link-color;
     padding: 20px;
+  }
+  a:hover{
+    position: relative;
+    top: 2px;
+    color: $nav-hover-link-color;
   }
 }
 

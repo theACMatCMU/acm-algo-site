@@ -2,12 +2,11 @@ $dark-grey: #3b3c3d;
 $light-grey: #000000;
 
 body{
-    background-color: #F0F8FF;
-    //background-image: url("http://fotobg.ru/upload/img1349818688.jpg");
+    background-color: black;
+    color: white;
     background-opacity: 0.5;
-    //background-attachment:fixed;
     background-position:center;
-
+    font-family: "Georgia";
 
 }
 
@@ -22,7 +21,7 @@ body{
   font-size: 27px;
   font-family: "Georgia";
   color: white;
-  margin-bottom: 5px;
+  margin-bottom: 0px;
   background-color: #009dff;
 }
 
@@ -34,6 +33,13 @@ body{
   color: white;
   position:relative;		 
   top: -5px;
+}
+
+
+#regnow {
+  margin-top: 50px;
+  padding: 10px;
+  text-align: center;
 }
 
 #middle {
