@@ -2,6 +2,7 @@
 acm-cmu-cmyk.eps: acm-cmu-cmyk-e93ea46142cd43abcd7c542032d97dcf.eps
 acm_logo (copy).png: acm_logo (copy)-600dba5e7e21cbca3585b30c0f8252a8.png
 acm_logo.png: acm_logo-600dba5e7e21cbca3585b30c0f8252a8.png
+acm_logo_black.png: acm_logo_black-b6576224eda71af02a26b1231ddd2b77.png
 arrow.png: arrow-5b55b8dc4d22169eed087146575e53e2.png
 banner.png: banner-a7b0cbd341b3a5218981715083ab819e.png
 header_blue.png: header_blue-25814235ef8459c5d39050f4cd9bed35.png
@@ -13,5 +14,5 @@ schedulelogo.png: schedulelogo-2e329dc1c5516d103d6cef0301a08d51.png
 slogan.jpg: slogan-443940976c76ba98c48b53243d5d1f87.jpg
 sponsors/opencurriculum-color-m.png: sponsors/opencurriculum-color-m-0cdbfefcf3ec96170b1f41a932d9b3dd.png
 application.js: application-ad72656ece0bf561b6a378a99be89961.js
-application.css: application-9663077cf029dbb72df2726ec975b723.css
+application.css: application-88c6d30ea056a883363dabd7e2367c40.css
 jquery.min.map: jquery.min-70bec01470bf6bcfed5892ae554b38c8.map
