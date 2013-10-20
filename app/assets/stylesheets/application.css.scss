@@ -10,8 +10,12 @@ $nav-bg-color: white;
 
 $gen-font : "Helvetica";
 
+// General fix to remove side black lines
 
-
+*{
+    margin-left: 0px;
+    margin-right: 0px;
+}
 html {
    font-family: $gen-font;
    min-width: 850px;
@@ -83,7 +87,7 @@ a:active {
   font-family: "Georgia";
   margin-bottom: 5px;
   text-align: center;
-  margin-top: -35px;
+  margin-top: -40px;
   background-color: $nav-bg-color;
 
   a{
