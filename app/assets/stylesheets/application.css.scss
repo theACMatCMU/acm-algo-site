@@ -77,6 +77,14 @@ a:hover {
   color: $hover-link-color;
 }
 
+
+h1 a:hover {
+  position: relative;
+  top: 2px;
+  color: gray;
+}
+
+
 a:active {
   color: $light-grey;
 }
